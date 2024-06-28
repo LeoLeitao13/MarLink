@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="assets/icons8-procurando-nemo-16.png"> 
+    <title>Gerenciamento de Notícias</title>
+    <link rel="stylesheet" href="styles/crud.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Gerenciamento de Notícias</h2>
+        <form id="newsForm">
+            <label for="title">Título:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="description">Descrição:</label>
+            <textarea id="description" name="description" required></textarea>
+            <label for="link">Link:</label>
+            <input type="url" id="link" name="link" required>
+            <label for="image">Imagem:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+            <button type="submit">Adicionar Notícia</button>
+        </form>
+        <div id="newsList"></div>
+        <button onclick="window.location.href='index.html'">Voltar para a Página Inicial</button>
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+body{
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    background: rgb(253,227,255);
+    background: radial-gradient(circle, rgba(253,227,255,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.conteiner{
+    width: 40vh;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.964);
+    box-shadow: 10px 15px 5px rgb(48, 0, 78);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left:  80vh;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .conteiner h2{
+      font-size: 30px;
+      margin-top: 40px;
+      text-align: center;
+  }
+  
+  .conteiner input{
+      margin-top: 30px;
+      font-size: 20px;
+      border-radius: 5px;
+      font-family: 20px;
+      margin-left: 16px;
+  }
+  
+  .conteiner button{
+      background-color: rgba(138, 29, 188, 0.595);
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      width: 15rem;
+      margin-left: 24px;
+      margin-top: 14px;
+  }
+  
+  #titulo{
+      display: flex;
+      justify-content: center;
+      margin-left: 5vh;
+      font-size: 50px;
+      width: 100%;
+      font-family: "Caveat";
+  
+  }
+  
