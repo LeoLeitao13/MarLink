@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    background: rgb(253,227,255);
+    background: radial-gradient(circle, rgba(253,227,255,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 15px 5px rgb(48, 0, 78);
+    width: 90%;
+    max-width: 600px;
+    margin-top: 70px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="url"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(138, 29, 188, 0.595);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #960ebf;
+}
+
+#newsList {
+    margin-top: 20px;
+}
+
+#newsList .not1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#newsList .not1 img.news-img {
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+#newsList .not1 .txt01 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#newsList .not1 .txt01 h2 {
+    color: #474E8F;
+    font-size: 30px;
+}
+
+#newsList .not1 .txt01 p {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 70vh;
+    padding-bottom: 20px;
+}
+
+#newsList .not1 .txt01 button {
+    background-color: rgb(181, 178, 255);
+    border-radius: 5px;
+    height: 5vh;
+    width: 20vh;
+    cursor: pointer;
+}
+
+#newsList .not1 .news-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+#newsList .not1 .news-actions button {
+    background-color: #dc3545;
+    margin-top: 5px;
+}
+
+#newsList .not1 .news-actions button:hover {
+    background-color: #c82333;
+}
